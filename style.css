@@ -1,0 +1,88 @@
+body {
+    background-color: darkgrey;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#cubeImage img {
+    width: 300px;
+    height: 300px;
+}
+
+#grid1 {
+    display: inline-grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;
+    margin-left: 172px;
+}
+#grid2 {
+    display: inline-grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;
+}
+#grid3 {
+    display: inline-grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;
+}
+#grid4 {
+    display: inline-grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;
+}
+#grid5 {
+    display: inline-grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;
+}
+#grid6 {
+    display: inline-grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;
+    margin-left: 173px;
+}
+
+#colourGrid {
+    display: inline-grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-column-gap: 5px;
+    margin-left: 100px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+#colourGrid img {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color:black;
+}
+
+#loading {
+    width: 200px;
+    height: 200px;
+}
+
+#solveButton {
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+#nextButton {
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+}

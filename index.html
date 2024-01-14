@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Solver</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div class="row"></div>
+        <div class="column">
+            <h1>Rubik's Cube Solver</h1>
+            <div id="grid1"></div>
+            <br><br>
+            <div id="grid2"></div>&nbsp&nbsp
+            <div id="grid3"></div>&nbsp&nbsp
+            <div id="grid4"></div>&nbsp&nbsp
+            <div id="grid5"></div>
+            <br><br>
+            <div id="grid6"></div>
+            <br><br><br><br><br>
+            <div id="colourGrid"></div>
+            <button id="solveButton">Solve</button>
+        </div>
+        <div class="column">
+            <h1>Current Move: <span id="result"></span></h13>
+            <br>
+            <img id="loading" src="images/loading.gif">
+            <div id="cubeImage"></div>
+            <button id="nextButton">Next</button>
+        </div>
+
+    <script type='module' src="app.js"></script>
+</body>
+</html>
